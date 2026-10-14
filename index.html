@@ -1,0 +1,17 @@
+<html>
+
+<body>
+    <h2>Simple Calculator</h2>
+
+    <input id="a" placeholder="First number">
+    <input id="b" placeholder="Second number"><br><br>
+
+    <button onclick="r.innerHTML=Number(a.value)+Number(b.value)">+</button>
+    <button onclick="r.innerHTML=a.value-b.value">-</button>
+    <button onclick="r.innerHTML=a.value*b.value">*</button>
+    <button onclick="r.innerHTML=b.value!=0?a.value/b.value:'Cannot divide by zero'">/</button>
+
+    <h3 id="r">Result:</h3>
+</body>
+
+</html>
